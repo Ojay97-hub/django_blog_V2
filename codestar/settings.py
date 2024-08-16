@@ -91,10 +91,8 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeinstitute-ide.net/",
-    "https://*.herokuapp.com",
     "https://8000-ojay97hub-djangoblogv2-8vuxiif20mw.ws-eu115.gitpod.io",
-    "https://django-blog-v3-d31594f85f26.herokuapp.com/"
+    "https://*.herokuapp.com"
 ]
 
 
