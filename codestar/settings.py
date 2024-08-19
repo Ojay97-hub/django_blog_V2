@@ -27,10 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    "8000-ojay97hub-djangoblogv2-8vuxiif20mw.ws-eu115.gitpod.io", 
+    "8000-ojay97hub-djangoblogv2-t127mmfptcq.ws.codeinstitute-ide.net", 
     ".herokuapp.com"
 ]
 
@@ -92,9 +92,9 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://8000-ojay97hub-djangoblogv2-8vuxiif20mw.ws-eu115.gitpod.io",
+    "https://8000-ojay97hub-djangoblogv2-t127mmfptcq.ws.codeinstitute-ide.net",
     "https://*.herokuapp.com",
-    "https://django-blog-v3-d31594f85f26.herokuapp.com/", 
+    "https://django-blog-v3-d31594f85f26.herokuapp.com/",
 ]
 
 
