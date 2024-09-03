@@ -1,1 +1,0 @@
-console.log("Life, is like a box of yummy chocolates, just open it!");
